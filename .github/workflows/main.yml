@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v2
       - name: Hello World
         run: python ./hello.py
-      - name: testing
+      - name: pytest
+      - run: pip3 install pytest
+      - name: test script
       - run: pytest ./test_hello.py
         shell: sh
