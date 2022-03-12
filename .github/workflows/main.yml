@@ -24,7 +24,7 @@ jobs:
       - name: Hello World
         run: python ./hello.py
       - name: pytest
-      - run: pip3 install pytest
+        run: pip3 install pytest
       - name: test script
-      - run: pytest ./test_hello.py
+        run: pytest ./test_hello.py
         shell: sh
