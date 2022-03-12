@@ -1,1 +1,4 @@
-print("Hello World!!! Great GitHub Actions!!!")
+def msg(S):
+  return S
+
+
