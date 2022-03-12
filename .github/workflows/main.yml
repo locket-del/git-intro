@@ -19,3 +19,8 @@ jobs:
             print("Directory contents:")
             for f in os.listdir():
                 print(f) 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Hello World
+        run: python /hello.py
+        shell: sh
